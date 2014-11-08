@@ -1,0 +1,19 @@
+{
+    "fekit_extension_command_name":"scan",
+    "name": "fekit-extension-scan",
+    "version": "0.0.1",
+    "description": "为fekit增加scan基本命令",
+    "dependencies": {},
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:EdwonLim/fekit-extension-scan.git"
+    },
+    "author": "Edwon.Lim <edwon.lim@gmail.com>",
+    "license": "BSD",
+    "scripts":{
+        "postinstall":"node ./scripts/postinstall.js",
+        "preuninstall":"node ./scripts/preuninstall.js"
+    }
+}
