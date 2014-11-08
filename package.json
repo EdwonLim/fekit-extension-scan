@@ -1,7 +1,7 @@
 {
     "fekit_extension_command_name":"scan",
     "name": "fekit-extension-scan",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "为fekit增加scan基本命令",
     "dependencies": {},
     "main": "index.js",

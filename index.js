@@ -47,7 +47,7 @@ exports.run = function(options){
     if (options.path && options.path !== true) {
         root = options.path;
     }
-    analyseDir(root);
+    analyseDir(root, root);
     files = fs.readdirSync(root);
     files.forEach(function(file) {
         var pathname = path.join(root, file),
