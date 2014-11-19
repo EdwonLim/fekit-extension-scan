@@ -2,7 +2,7 @@ var fs = require('fs'),
     path = require('path');
 
 function logProject(dir, root, config) {
-    console.log('# Project:');
+    console.log('## Project:');
     console.log('- Name: ' + (config.name || '') + ' (' + (config.version || '-') + ')');
     console.log('- Dir: ./' + path.relative(root, dir));
     console.log('- Compiler: ' + (config.compiler || ''));
